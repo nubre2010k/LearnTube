@@ -54,6 +54,13 @@ const movieContent = [
   { type: "movie", title: "Smallville", url: "https://ororo.tv/en/shows/smallville" },
   { type: "movie", title: "The Flesh", url: "https://ororo.tv/en/shows/the-flash" },
   { type: "movie", title: "Tulsa king", url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/tulsa-king-MsmATkU0Mg6?id=5262873104975547168&type=/movie/detail&lang=en" },
+  { type: "movie", title: "I am number four" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/i-am-number-four-OxmyNfAn4V2?id=2451169081714689064&type=/movie/detail&lang=en"},
+  { type: "movie", title: "Naruto Shippuden" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/naruto-shippuden-english-84CHPUIQj18?id=6732266150736413040&type=/movie/detail&lang=en"},
+  { type: "movie", title: "Gravity falls" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/gravity-falls-4OOLGF50uC9?id=8074654106935250736&type=/movie/detail&lang=en"},
+  { type: "movie", title: "F1: The Movie" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/f1-the-movie-O7fxkrUbfma?id=8694126607897870968&type=/movie/detail&lang=en"},
+  { type: "movie", title: "Wednesday" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/wednesday-urChTxajYKa?id=9028867555875774472&type=/movie/detail&lang=en"},
+  { type: "movie", title: "Attack on Titan" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/attack-on-titan-english-6lPl9A2Wn1a?id=8411756968024720848&type=/movie/detail&lang=en"},
+  { type: "movie", title: "Ben 10" , url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/ben-10-alien-force-yBQ995VXcna?id=8707177748105675600&type=/movie/detail&lang=en"}
 ];
 
 const englishMathContent = [
@@ -219,4 +226,5 @@ window.addEventListener('resize', () => {
     const newHeight = screenWidth < 768 ? '300px' : screenWidth < 1024 ? '400px' : '600px';
     activeFrame.style.height = newHeight;
   }
+
 });
