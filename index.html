@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz" id="html-root">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Darsliklar & Kitoblar Sayti</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bg">
+            <h1>DISCIPLINE</h1>
+        </div>
+
+        <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+
+        <ul class="navbar">
+            <!-- Coding Menu -->
+            <li class="dropdown">
+            <button class="dropbtn">Coding</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="loadSection('Python Darslari', pythonContent)">Python</a>
+                <a href="#" onclick="loadSection('C++ Darslari', cppContent)">C++</a>
+                <a href="#" onclick="loadSection('GO Darslari', goContent)">GO</a>
+                <a href="#" onclick="loadSection('Frontend Darslari', frontendContent)">Frontend</a>
+                <a href="#" onclick="loadSection('Coding Qo\'shimcha', moreCodingContent)">More</a>
+            </div>
+            </li>
+
+            <!-- Languages Menu -->
+            <li class="dropdown">
+            <button class="dropbtn">Languages</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="loadSection('Podcasts', podcastContent)">Podcasts</a>
+                <a href="#" onclick="loadSection('Movies', movieContent)">Movies</a>
+            </div>
+            </li>
+
+            <!-- Math Menu -->
+            <li class="dropdown">
+            <button class="dropbtn">Math</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="loadSection('English Math', englishMathContent)">Math</a>
+            </div>
+            </li>
+
+            <!-- More Menu -->
+            <li class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="loadSection('Videos', generalContent)">Videos</a>
+                <a href="#" onclick="loadSection('Books', bookContent)">Books</a>
+            </div>
+            </li>
+        </ul>
+
+        <div class="container">
+            <h2 class="section-title" id="section-title">Dars bo'limini tanlang</h2>
+            
+            <div id="video-grid" class="video-grid">
+            <p style="text-align:center; width:100%;">Yuqoridagi menyulardan bo'limni tanlang.</p>
+            </div>
+
+            <div id="active-video" class="active-video" style="display:none;">
+            <h3 id="active-video-title">Tanlangan kontent</h3>
+            <div id="active-video-frame"></div>
+            </div>
+                <div class="loader">
+            <div data-glitch="Loading..." class="glitch">Loading...</div>
+        </div>
+        </div>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
