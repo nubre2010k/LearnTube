@@ -457,7 +457,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(22, 20, 24);
-  color: var(--bgtext);
   user-select: none;
 ;
 }
@@ -472,10 +471,12 @@ code {
   position: fixed;
   top: 50%;
   left: 50%;
+  color: var(--bgtext);
   transform: translate(-50%, -50%);
   h1{
     font-size: 15rem;
     filter: opacity(0.5);
   }
 }
+
 
