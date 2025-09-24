@@ -3,6 +3,7 @@
     /* Light Mode — Frosted Glass Base */
     --bg-gradient: linear-gradient(135deg, rgba(245, 245, 245, 0.85), rgba(220, 220, 220, 0.85));
     --text-color: #1a1a1a;
+    --color : #1a191c;
     --glass-bg: rgba(255, 255, 255, 0.2);
     --glass-border: rgba(255, 255, 255, 0.336);
     --glass-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
@@ -16,9 +17,9 @@
 }
 
 [data-theme="dark"] {
-    /* Dark Mode — Immersive Glass */
     --bg-gradient: linear-gradient(135deg, rgba(10, 10, 10, 0.85), rgba(30, 30, 30, 0.85));
     --text-color: #e6e6e6;
+    --color:#e4e1f5;
     --glass-bg: rgba(0, 0, 0, 0.2);
     --glass-border: rgba(255, 255, 255, 0.192);
     --glass-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
@@ -511,6 +512,7 @@ code {
     filter: opacity(0.5);
   }
 }
+
 
 
 
